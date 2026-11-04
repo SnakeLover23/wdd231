@@ -116,27 +116,36 @@ section img {
     height: auto;
 }
 
-section.courses {
+.filter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    margin: 5px;
+}
+
+.filter a {
+    text-align: center;
+    text-decoration: none;
+    background-color: #999999;
+    padding: 5px;
+    color: #000000;
+}
+
+section.certificate{
     background-color: #ffffff;
     border: none;
 }
 
-.courses ul {
-    list-style: none;
-    justify-content: center;
-}
-
-.courses ul li {
-    background-color: #bbbbbb;
+.courses {
     text-align: center;
-    padding: 5px;
-    border: solid 1px #333333;
-    margin: 5px 0;
 }
 
-.courses ul li a {
-    text-decoration: none;
-    color: #000000;
+.courses section {
+    border: none;
+}
+
+.uncompleted {
+    background-color: #999999;
 }
 
 /* Footer */
