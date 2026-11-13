@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/chamber-icon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Directory page for the Springville Chamber of Comerse by Gage Thorup">
+    <meta name="author" content="Gage Thorup">
+    <script defer src="scripts/navigation.js"></script>
+    <script defer src="scripts/footer.js"></script>
+    <script defer src="scripts/members.js"></script>
+    <title>Directory</title>
+    <meta property="og:title" content="Directory">
+    <meta property="og:description" content="Directory page for the Springville Chamber of Comerse by Gage Thorup">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="">
+</head>
+<body>
+    <header>
+        <img src="images/site-logo.svg" alt="Site Logo" width="24" height="24">
+        <span>Springville Chamber of Commerce</span>
+        <button id="nav-button" class="hamburger" aria-label="Toggle navigation" aria-expanded="false"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li class="current"><a href="#" aria-current="page">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Descover</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Directory</h1>
+        <div class="buttons">
+            <button id="grid-button" aria-label="Toggle grid">Grid</button>
+            <button id="list-button" aria-label="Toggle list">List</button>
+        </div>
+        <div id="members">
+        </div>
+    </main>
+    <footer>
+        <div class="contact">
+            <p class="bold">Springville Chamber of Commerce</p>
+            <p>19 Rue De La Paix</p>
+            <p>Springville, Utah 84663</p>
+            <p>info@springvillecc.org</p>
+            <p>(123) 555-5555</p>
+        </div>
+        <div class="socials">
+            <a href="https://github.com/SnakeLover23"><img src="images/github.svg" alt="Githup"></a>
+            <a href="https://www.linkedin.com/in/gage-thorup-233572269/"><img src="images/linkedin.svg" alt="Linkedin"></a>
+            <a href="https://x.com/SnakeLover2323"><img src="images/twitter-x.svg" alt="Twitter"></a>
+        </div>
+        <div class="copyright">
+            <p>WDD 231 class project</p>
+            <p>Gage Thorup</p>
+            <p>©<span id="currentyear"></span> Springville Chamber of Commerce</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

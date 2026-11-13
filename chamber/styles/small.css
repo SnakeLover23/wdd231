@@ -1,0 +1,144 @@
+/* Color Scheme
+Black: #000000
+White: #ffffff
+Light Gold: #fff5c7
+Gold: #ffe677
+Dark Gold: #ffda37
+*/
+
+body {
+    background-color: #fff5c7;
+    color: #000000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Header */
+header {
+    display: grid;
+    grid-template-columns: 24px 1fr 44px;
+    padding: 5px;
+    column-gap: 8px;
+    align-items: end;
+    background-color: #ffe677;
+}
+
+header img {
+    display: block;
+    width: 24px;
+    height: auto;
+}
+
+header span {
+    font-size: 1.2rem;
+}
+
+/* Hamburger Navigation */
+.hamburger {
+    background-color: #ffe677;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+  content: "\2630";
+}
+
+.hamburger.show::before {
+  content: "\00D7";
+}
+
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style: none;
+    justify-content: center;
+}
+
+.navigation ul li.current {
+    background-color: #ffda37;
+}
+
+.navigation ul li {
+    padding: 10px;
+    background-color: #ffe677;
+    text-align: center;
+    /* border: solid 1px #000000; */
+}
+
+.navigation ul li a {
+    color: #000000;
+    
+}
+
+/* Main */
+main {
+    margin: 5px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+    padding: 5px;
+}
+
+.buttons button {
+    padding: 2px 5px;
+    font-size: 2rem;
+    min-width: 80px;
+    background-color: #ffe677;
+    cursor: pointer;
+    border: none;
+}
+
+.buttons button:hover {
+    background-color: #ffda37;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #ffe677;
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+}
+
+.socials a {
+    margin: 5px;
+}
+
+.copyright, .contact {
+    padding-bottom: 5px;
+    /* text-align: center; */
+}
+
+.copyright p, .contact p {
+    padding-top: 5px;
+    padding-left: 5px;
+}

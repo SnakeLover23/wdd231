@@ -1,0 +1,44 @@
+@media only screen and (min-width: 38rem) {
+
+    header, main, nav, footer {
+        max-width: 60%;
+        margin: 0 auto;
+        padding: 0 20%;
+    }
+
+    /* Header */
+    header {
+        grid-template-columns: 24px 1fr;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    /* Hamburger Navigation */
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation ul li {
+        width: 100%;
+    }
+
+    /* Main */
+
+
+    /* Footer */
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding-top: 5px;
+    }
+}
