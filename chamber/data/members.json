@@ -4,6 +4,7 @@
             "name": "Async Research Institute",
             "address": "[Redacted}",
             "phone": "(125) 555-5554",
+            "email": "info@async.gov",
             "website": "https://ko-fi.com/kanepixels",
             "image": "images/backrooms.webp",
             "membership": 3
@@ -12,6 +13,7 @@
             "name": "WcDonald's",
             "address": "4321 Goober Str",
             "phone": "(432) 155-5555",
+            "email": "info@wcdonalds.com",
             "website": "https://www.mcdonalds.com/ae/en-ae/anime-campaign.html",
             "image": "images/wcdonalds.webp",
             "membership": 1
@@ -20,6 +22,7 @@
             "name": "Jake's Brookside",
             "address": "410 South 400 East, Springville Utah",
             "phone": "(801) 489-7290",
+            "email": "jakesbrookside@yahoo.com",
             "website": "https://www.jakesbrookside.com/",
             "image": "images/jakes-brookside.webp",
             "membership": 2
@@ -28,14 +31,16 @@
             "name": "The Zooliminology Project",
             "address": "Somewhere in Switzerland",
             "phone": "(041) 555-5565",
+            "email": "delta@zoliminology.net",
             "website": "https://zooliminology.net/",
-            "image": "images/zooliminology",
+            "image": "images/zooliminology.webp",
             "membership": 1
         },
         {
             "name": "The Place",
             "address": "You know the place",
             "phone": "(000) 000-5555",
+            "email": "the@place.null",
             "website": "https://earth.nullschool.net/",
             "image": "images/place.webp",
             "membership": 2
@@ -44,6 +49,7 @@
             "name": "Gregory House",
             "address": "666 Wondering Boulevard",
             "phone": "(666) 555-5555",
+            "email": "gregorywrat@spiritmail.com",
             "website": "http://gregory-horror-show.com/",
             "image": "images/gregory-house.webp",
             "membership": 1
@@ -52,6 +58,7 @@
             "name": "Doofenshmirtz Evil Incorporated",
             "address": "9297 Polly Parkway, Danville USA",
             "phone": "(333) 555 5551",
+            "email": "kittystrudel@doofevil.inc",
             "website": "https://doofenschmitzevil.com/",
             "image": "images/doofenshmirtz.webp",
             "membership": 1
