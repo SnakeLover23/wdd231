@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="images/chamber-icon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for the Springville Chamber of Comerse by Gage Thorup">
+    <meta name="author" content="Gage Thorup">
+    <script defer src="scripts/navigation.js"></script>
+    <script defer src="scripts/footer.js"></script>
+    <script defer src=""></script>
+    <title>Springville Chamber of Commerce</title>
+    <meta property="og:title" content="Springville Chamber of Commerce">
+    <meta property="og:description" content="Home page for the Springville Chamber of Comerse by Gage Thorup">
+    <meta property="og:image" content="https://snakelover23.github.io/wdd231/chamber/images/directoryimg.png">
+    <meta property="og:url" content="https://snakelover23.github.io/wdd231/chamber/home.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/site-logo.svg" alt="Site Logo" width="24" height="24">
+        <span>Springville Chamber of Commerce</span>
+        <button id="nav-button" class="hamburger" aria-label="Toggle navigation" aria-expanded="false"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#" aria-current="page">Home</a></li>
+            <li><a href="https://snakelover23.github.io/wdd231/chamber/directory.html">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Descover</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="hero">
+            <img src="images/hero.webp" alt="Site hero image" loading="lazy">
+            <div class="call">
+                <a href="#">Join us, thrive</a>
+            </div>
+        </div>
+        <div class="homeContent">
+            <section class="event">
+                <h2>weather</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur eaque dolorum iure vel nulla dolore modi similique praesentium non quia esse molestiae placeat molestias ea, aliquam provident reprehenderit voluptates tempora.</p>
+            </section>
+            <section class="weather"></section>
+            <section class="spotlight"></section>
+        </div>
+    </main>
+    <footer>
+        <div class="contact">
+            <p class="bold">Springville Chamber of Commerce</p>
+            <p>19 Rue De La Paix</p>
+            <p>Springville, Utah 84663</p>
+            <p>info@springvillecc.org</p>
+            <p>(123) 555-5555</p>
+        </div>
+        <div class="socials">
+            <a href="https://github.com/SnakeLover23"><img src="images/github.svg" alt="Githup"></a>
+            <a href="https://www.linkedin.com/in/gage-thorup-233572269/"><img src="images/linkedin.svg" alt="Linkedin"></a>
+            <a href="https://x.com/SnakeLover2323"><img src="images/twitter-x.svg" alt="Twitter"></a>
+        </div>
+        <div class="copyright">
+            <p>WDD 231 class project</p>
+            <p>Gage Thorup</p>
+            <p>©<span id="currentyear"></span> Springville Chamber of Commerce</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>
