@@ -124,6 +124,51 @@ h1 {
     background-color: #ffe677;
 }
 
+.event, .weather, .spotlight {
+    background-color: #ffe677;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.event h2 {
+    text-align: center;
+}
+
+.weather {
+    text-align: center;
+}
+
+.forcast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 5px;
+}
+
+.forcast h3 {
+    grid-column: 1/4;
+}
+
+.spotlight h2 {
+    text-align: center;
+}
+
+.spotlight > section {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    margin: 5px 0;
+    background-color: #ffda37;
+    padding: 5px;
+}
+
+.spotlight section h3 {
+    grid-column: 1/3;
+    text-align: center;
+}
+.spotlight section section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 /* directory */
 .buttons {
     display: flex;

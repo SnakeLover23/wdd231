@@ -11,7 +11,7 @@
     <meta name="author" content="Gage Thorup">
     <script defer src="scripts/navigation.js"></script>
     <script defer src="scripts/footer.js"></script>
-    <script defer src=""></script>
+    <script type="module" src="scripts/home.mjs"></script>
     <title>Springville Chamber of Commerce</title>
     <meta property="og:title" content="Springville Chamber of Commerce">
     <meta property="og:description" content="Home page for the Springville Chamber of Comerse by Gage Thorup">
@@ -44,11 +44,13 @@
         </div>
         <div class="homeContent">
             <section class="event">
-                <h2>weather</h2>
+                <h2>Local Event</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur eaque dolorum iure vel nulla dolore modi similique praesentium non quia esse molestiae placeat molestias ea, aliquam provident reprehenderit voluptates tempora.</p>
             </section>
-            <section class="weather"></section>
-            <section class="spotlight"></section>
+            <section class="weather" id="weather"></section>
+            <section class="spotlight" id="spotlight">
+                <h2>Spotlight</h2>
+            </section>
         </div>
     </main>
     <footer>
